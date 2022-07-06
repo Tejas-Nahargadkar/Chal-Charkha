@@ -1,0 +1,42 @@
+.Appbar-Container .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #fffff0;
+  color: #653d3d;
+  height: 89px;
+  box-shadow: none;
+}
+.Appbar-Container .css-hyum1k-MuiToolbar-root{
+    height: 89px;
+}
+.Appbar-Container .css-11o6d55-MuiTypography-root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Appbar-Container .css-1kcggdq-MuiInputBase-root input {
+  border: 2px solid #c5bfbf;
+  border-radius: 7px;
+  background-color: #ffffff;
+}
+.Appbar-Container  .css-1iz4iln{
+    z-index: 1;
+}
+.Appbar-Container  .css-1iz4iln svg{
+    color: #653d3d;
+}
+.Appbar-Container .css-1f5y6oa-MuiButtonBase-root-MuiIconButton-root{
+  gap: 0.5rem;
+}
+.Appbar-Container .css-1f5y6oa-MuiButtonBase-root-MuiIconButton-root p{
+  margin: 0%;
+  font-size: 1rem;
+}
+.AppBar-Dropdown{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1060px){
+  .Appbar-Container{
+    display: none;
+  }
+}

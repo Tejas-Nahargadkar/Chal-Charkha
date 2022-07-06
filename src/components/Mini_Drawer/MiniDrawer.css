@@ -1,0 +1,31 @@
+.MiniBar-Container .css-2dum1v-MuiDrawer-docked.MuiDrawer-paper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MiniBar-Container .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  background: #fffff0;
+}
+.MiniBar-Container .css-1m5i5w0-MuiButtonBase-root-MuiListItemButton-root {
+  color: #653d3d;
+  font-size: 18px;
+  font-weight: 600;
+}
+.MiniBar-Container .css-19z1ozs-MuiPaper-root-MuiAppBar-root{
+    background: #fffff0;
+    box-shadow: none;
+}
+.MiniBar-Container .css-1191obr-MuiPaper-root-MuiAppBar-root {
+    background:#fffff0;
+    box-shadow: none;
+}
+.MiniBar-Container .css-p55zm9-MuiButtonBase-root-MuiIconButton-root svg{
+    color: #653d3d;
+}
+@media screen and (min-width: 1440px) and (max-width: 2640px){
+    .MiniBar-Container{
+        display: none;
+    }
+}

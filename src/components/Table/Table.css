@@ -1,0 +1,49 @@
+.Table-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Table-Container
+  .css-r11z79-MuiDataGrid-root
+  .MuiDataGrid-row:not(.MuiDataGrid-row--dynamicHeight)
+  > .MuiDataGrid-cell {
+  max-width: fit-content !important;
+  min-width: max-content !important;
+}
+.Table-Container .css-1w5m2wr-MuiDataGrid-virtualScroller {
+  width: 1150px;
+}
+.Table-Container .css-s1v7zr-MuiDataGrid-virtualScrollerRenderZone {
+  width: 100%;
+}
+.Table-Container .css-1kwdphh-MuiDataGrid-virtualScrollerContent {
+  width: 100%;
+}
+.Table-Container .css-r11z79-MuiDataGrid-root .MuiDataGrid-row {
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.Table-Container .css-f3jnds-MuiDataGrid-columnHeaders {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #f1f0f0;
+}
+
+.Table-Container .css-1s0hp0k-MuiDataGrid-columnHeadersInner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Table-Container .css-r11z79-MuiDataGrid-root .MuiDataGrid-columnHeader--sortable{
+  width: 150px !important;
+  min-width: 150px !important;
+  max-width: 100px;
+}

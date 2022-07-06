@@ -1,0 +1,33 @@
+.Sidebar-Container .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  width: 100%;
+  background-color: #fffff0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.Sidebar-Container .css-10hburv-MuiTypography-root {
+  color: #653d3d;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Sidebar-Container .css-i4bv87-MuiSvgIcon-root{
+    width: 1.2em;
+    height: 1.2em;
+    color: #653D3D;
+}
+.Sidebar-Logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Sidebar-Logo img{
+    width: 50%;
+}
+@media only screen and (max-width: 1060px) {
+  .Sidebar-Container{
+    display: none;
+  }
+}

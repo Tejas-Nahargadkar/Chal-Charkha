@@ -1,0 +1,54 @@
+.Tab-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: #653d3d;
+}
+.Tab-row {
+  width: 95%;
+  height: 7ch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: #f1f0f0;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.Tab-btn-row {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+.Tab-Button {
+  width: 100%;
+  font-size: 16px;
+}
+.Active-Tab {
+  width: 80%;
+  height: 60%;
+  background-color: #ffffff;
+  padding-left: 1rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.Tab-Target{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Supplier_Master{
+  width: 100%;
+}
+.Tab-divider{
+  width: 95%;
+  height: 1px;
+  background-color: #C5BFBF;
+}
